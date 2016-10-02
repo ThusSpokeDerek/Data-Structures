@@ -14,20 +14,10 @@
 #ifndef Stack_h
 #define Stack_h
 
-#include <algorithm>
 #include "LL.h"
 
 using std::cout;
 using std::endl;
-using std::string;
-using std::ifstream;
-using std::ostream;
-using std::istream;
-using std::cin;
-using std::istringstream;
-using std::ostringstream;
-using std::setw;
-using std::setfill;
 
 struct Element
 {

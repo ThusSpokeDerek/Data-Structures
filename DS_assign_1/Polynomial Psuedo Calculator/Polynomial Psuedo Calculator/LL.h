@@ -14,19 +14,10 @@
 #ifndef LL_h
 #define LL_h
 
-#include <algorithm>
 
 using std::cout;
 using std::endl;
-using std::string;
-using std::ifstream;
-using std::ostream;
-using std::istream;
-using std::cin;
-using std::istringstream;
-using std::ostringstream;
-using std::setw;
-using std::setfill;
+
 
 struct Node
 {
