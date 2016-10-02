@@ -34,9 +34,9 @@ int main(int argc, const char * argv[])
     {
         Stack *polyStack = new Stack();
         upload(argv[1], *polyStack);
+        cout << "Your answer is: \n\t";
         polyStack->Display();
-        
-    }//END try block
+    }
     catch(...)
     {
         cout << "This should happen\n";
@@ -120,20 +120,14 @@ void upload(string argv, Stack &Stack)
                             poly->sort(newterm);
                         }
                     }
-                    
                     Stack.Push(poly);
                 }
             }
-
             file.close();
         }
-        
     }
     catch(string e)//didnt enter file in command file give warning.
     {
         cout << e;
     }
-
-
-    cout << "Exiting function loadData\n";
 }//END loadData

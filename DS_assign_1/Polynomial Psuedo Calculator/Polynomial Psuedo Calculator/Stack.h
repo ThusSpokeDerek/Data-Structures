@@ -37,16 +37,15 @@ struct Element
     Element(Polynomial*, Element*, Element*);
 };
 
-class Stack
+class Stack: public Polynomial
 {
 private:
-    Element* head;
     Element* top;
     
 public:
     
     Stack();
-//    ~Stack(); //destructor, must ensure memory is deallocated
+    ~Stack(); //destructor, must ensure memory is deallocated
     
     //member function push results in a Element<T> object being added
     //to the beginning of the linked list requires dynamic allocation of memory
@@ -67,10 +66,8 @@ public:
     void Clear();
     
     Element *getTop(){return top;};
-    Element *getHead(){return head;};
     
     void setTop(Element *top){this->top = top;};
-    void setHead(Element *head){this->head = head;};
 
 };
 
@@ -81,25 +78,19 @@ Element::Element(Polynomial *data, Element *previous, Element *next){
 }
 
 Stack::Stack(){
-    cout << "Inside default constructor for class Stack<T>\n";
-    head = NULL;
     top  = NULL;
 }//END of constructor
 
-//Stack::~Stack(){
-//    cout << "Stack<T>::~Stack() Entered destructor for class Stack<T>\n";
-//    cout << "calling member function clear() to deallocate memory for all objects on the list\n";
-//    Clear();
-//    cout << endl;
-//    
-//}//END of destructor
+Stack::~Stack(){
+    Clear();
+    clear();
+}//END of destructor
 
 void Stack::Push(Polynomial *val){
     
-    if(head == NULL)
+    if(top == NULL)
     {
-        head = new Element(val, NULL, NULL);
-        top  = head;
+        top = new Element(val, NULL, NULL);
     }
     else
     {
@@ -114,6 +105,11 @@ void Stack::Pop(){
     {
         cout << "The stack is empty";
     }
+    else if(this->top->previous == NULL)
+    {
+        delete this->top;
+        top = NULL;
+    }
     else
     {
         delete top;
@@ -127,13 +123,10 @@ Polynomial Stack::Top() {
 }
 
 void Stack::Clear(){
-    
-    while(top != head)
+    while(top != NULL)
     {
         this->Pop();
     }
-    top = head = NULL;
-    delete top;
 } //END LL::clear()
 
 
@@ -154,7 +147,7 @@ void Stack::Display(){
         Node *display2 = display->data->getHead();
         while(display2 != NULL)
         {
-            cout << display2->base << "x" << display2->exponent << " ";
+            cout << display2->base << "x^" << display2->exponent << " ";
             display2 = display2->next;
         }
         cout << endl;
