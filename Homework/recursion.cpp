@@ -63,7 +63,7 @@ int main(int argc, char const *argv[])
 
 gcd(a,b) = {    if(a == 0) b //base case throw b
                 if(b == 0) a //base case throw a
-                f(b,a%b) //otherwise do this
+                gcd(b,a%b) //otherwise do this
             }
 
 Mul(a,b) = {    if(b == 0) 0 //base case throw 0
