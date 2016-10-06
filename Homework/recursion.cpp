@@ -61,6 +61,7 @@ int main(int argc, char const *argv[])
  ****************************************************************************
  ****************************************************************************/
 
+<<<<<<< HEAD
 //gcd(a,b) = {    if(a == 0) b //base case throw b
 //                if(b == 0) a //base case throw a
 //                f(b,a%b) //otherwise do this
@@ -73,6 +74,20 @@ int main(int argc, char const *argv[])
 //                      if(K == S[a] || K == S[b] true //base case has found element in sequence now return true
 //                      find(a+1, b-1, K, S) //otherwise do this
 //                 }
+=======
+gcd(a,b) = {    if(a == 0) b //base case throw b
+                if(b == 0) a //base case throw a
+                gcd(b,a%b) //otherwise do this
+            }
+
+Mul(a,b) = {    if(b == 0) 0 //base case throw 0
+                a + Mul(a, b-1) // otherwise do this
+            }
+find(a,b,K,S) = {     if(b ==0) false //base case throw false; meaning has reached end of sequence and not found anything
+                      if(K == S[a] || K == S[b] true //base case has found element in sequence now return true
+                      find(a+1, b-1, K, S) //otherwise do this
+                 }
+>>>>>>> 36ca13bf88d912bc3a8d6ab65e6845072b798dfa
 
 /****************************************************************************
  ****************************************************************************
