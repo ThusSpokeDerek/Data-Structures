@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		33499CD51D8DF31B0081ABEC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33499CD31D8DF31B0081ABEC /* main.cpp */; };
+		33E787811DB85040005BF460 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33E787801DB85040005BF460 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		33499CC31D8DF2300081ABEC /* CopyFiles */ = {
+		33E7877B1DB85040005BF460 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,14 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		331B5C001D9B13B100B36722 /* Stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Stack.h; sourceTree = "<group>"; };
-		33499CC51D8DF2300081ABEC /* Polynomial Psuedo Calculator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Polynomial Psuedo Calculator"; sourceTree = BUILT_PRODUCTS_DIR; };
-		33499CD31D8DF31B0081ABEC /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		33499CD41D8DF31B0081ABEC /* LL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LL.h; sourceTree = "<group>"; };
+		33E7877D1DB85040005BF460 /* BST */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BST; sourceTree = BUILT_PRODUCTS_DIR; };
+		33E787801DB85040005BF460 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		33499CC21D8DF2300081ABEC /* Frameworks */ = {
+		33E7877A1DB85040005BF460 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -40,97 +38,95 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		33499CBC1D8DF2300081ABEC = {
+		33E787741DB85040005BF460 = {
 			isa = PBXGroup;
 			children = (
-				33499CC71D8DF2300081ABEC /* Polynomial Psuedo Calculator */,
-				33499CC61D8DF2300081ABEC /* Products */,
+				33E7877F1DB85040005BF460 /* BST */,
+				33E7877E1DB85040005BF460 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		33499CC61D8DF2300081ABEC /* Products */ = {
+		33E7877E1DB85040005BF460 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				33499CC51D8DF2300081ABEC /* Polynomial Psuedo Calculator */,
+				33E7877D1DB85040005BF460 /* BST */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		33499CC71D8DF2300081ABEC /* Polynomial Psuedo Calculator */ = {
+		33E7877F1DB85040005BF460 /* BST */ = {
 			isa = PBXGroup;
 			children = (
-				33499CD31D8DF31B0081ABEC /* main.cpp */,
-				33499CD41D8DF31B0081ABEC /* LL.h */,
-				331B5C001D9B13B100B36722 /* Stack.h */,
+				33E787801DB85040005BF460 /* main.cpp */,
 			);
-			path = "Polynomial Psuedo Calculator";
+			path = BST;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		33499CC41D8DF2300081ABEC /* Polynomial Psuedo Calculator */ = {
+		33E7877C1DB85040005BF460 /* BST */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 33499CCC1D8DF2300081ABEC /* Build configuration list for PBXNativeTarget "Polynomial Psuedo Calculator" */;
+			buildConfigurationList = 33E787841DB85040005BF460 /* Build configuration list for PBXNativeTarget "BST" */;
 			buildPhases = (
-				33499CC11D8DF2300081ABEC /* Sources */,
-				33499CC21D8DF2300081ABEC /* Frameworks */,
-				33499CC31D8DF2300081ABEC /* CopyFiles */,
+				33E787791DB85040005BF460 /* Sources */,
+				33E7877A1DB85040005BF460 /* Frameworks */,
+				33E7877B1DB85040005BF460 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Polynomial Psuedo Calculator";
-			productName = "Polynomial Psuedo Calculator";
-			productReference = 33499CC51D8DF2300081ABEC /* Polynomial Psuedo Calculator */;
+			name = BST;
+			productName = BST;
+			productReference = 33E7877D1DB85040005BF460 /* BST */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		33499CBD1D8DF2300081ABEC /* Project object */ = {
+		33E787751DB85040005BF460 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Derek Acosta";
 				TargetAttributes = {
-					33499CC41D8DF2300081ABEC = {
+					33E7877C1DB85040005BF460 = {
 						CreatedOnToolsVersion = 8.0;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 33499CC01D8DF2300081ABEC /* Build configuration list for PBXProject "Polynomial Psuedo Calculator" */;
+			buildConfigurationList = 33E787781DB85040005BF460 /* Build configuration list for PBXProject "BST" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 33499CBC1D8DF2300081ABEC;
-			productRefGroup = 33499CC61D8DF2300081ABEC /* Products */;
+			mainGroup = 33E787741DB85040005BF460;
+			productRefGroup = 33E7877E1DB85040005BF460 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				33499CC41D8DF2300081ABEC /* Polynomial Psuedo Calculator */,
+				33E7877C1DB85040005BF460 /* BST */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		33499CC11D8DF2300081ABEC /* Sources */ = {
+		33E787791DB85040005BF460 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33499CD51D8DF31B0081ABEC /* main.cpp in Sources */,
+				33E787811DB85040005BF460 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		33499CCA1D8DF2300081ABEC /* Debug */ = {
+		33E787821DB85040005BF460 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -170,14 +166,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
-		33499CCB1D8DF2300081ABEC /* Release */ = {
+		33E787831DB85040005BF460 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -211,20 +207,20 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
 			};
 			name = Release;
 		};
-		33499CCD1D8DF2300081ABEC /* Debug */ = {
+		33E787851DB85040005BF460 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		33499CCE1D8DF2300081ABEC /* Release */ = {
+		33E787861DB85040005BF460 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -234,25 +230,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		33499CC01D8DF2300081ABEC /* Build configuration list for PBXProject "Polynomial Psuedo Calculator" */ = {
+		33E787781DB85040005BF460 /* Build configuration list for PBXProject "BST" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				33499CCA1D8DF2300081ABEC /* Debug */,
-				33499CCB1D8DF2300081ABEC /* Release */,
+				33E787821DB85040005BF460 /* Debug */,
+				33E787831DB85040005BF460 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		33499CCC1D8DF2300081ABEC /* Build configuration list for PBXNativeTarget "Polynomial Psuedo Calculator" */ = {
+		33E787841DB85040005BF460 /* Build configuration list for PBXNativeTarget "BST" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				33499CCD1D8DF2300081ABEC /* Debug */,
-				33499CCE1D8DF2300081ABEC /* Release */,
+				33E787851DB85040005BF460 /* Debug */,
+				33E787861DB85040005BF460 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 33499CBD1D8DF2300081ABEC /* Project object */;
+	rootObject = 33E787751DB85040005BF460 /* Project object */;
 }

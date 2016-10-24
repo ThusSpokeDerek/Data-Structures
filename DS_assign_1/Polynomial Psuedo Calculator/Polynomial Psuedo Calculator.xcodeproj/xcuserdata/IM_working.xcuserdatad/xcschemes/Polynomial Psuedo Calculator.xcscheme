@@ -61,6 +61,12 @@
             ReferencedContainer = "container:Polynomial Psuedo Calculator.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
+      <CommandLineArguments>
+         <CommandLineArgument
+            argument = "/Users/IM_working/Desktop/CompSci/Data-Structures/DS_assign_1/Polynomial\ Psuedo\ Calculator/Polynomial\ Psuedo\ Calculator/sample.dat"
+            isEnabled = "YES">
+         </CommandLineArgument>
+      </CommandLineArguments>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
