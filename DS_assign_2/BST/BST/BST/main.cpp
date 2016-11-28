@@ -42,7 +42,7 @@ int main(int argc, const char* argv[])
     {
         cout << "This should not happen\n";
     }
-    
+
     return 0;
 }
 
@@ -54,11 +54,11 @@ void load(string argv)
             string error = "Please enter the file name on the command line\n";
             throw error;
         }
-        
+
         string file_name = argv;
-        
+
         ifstream file(file_name.c_str());
-        
+
         if(!file)
         {
             cout << "Check to ensure the file" << endl;
