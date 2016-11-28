@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0800"
+   LastUpgradeVersion = "0810"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "33E7877C1DB85040005BF460"
-               BuildableName = "BST"
-               BlueprintName = "BST"
-               ReferencedContainer = "container:BST.xcodeproj">
+               BlueprintIdentifier = "33E9A53E1DD7D3180090120D"
+               BuildableName = "DS_assign_3"
+               BlueprintName = "DS_assign_3"
+               ReferencedContainer = "container:DS_assign_3.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "33E7877C1DB85040005BF460"
-            BuildableName = "BST"
-            BlueprintName = "BST"
-            ReferencedContainer = "container:BST.xcodeproj">
+            BlueprintIdentifier = "33E9A53E1DD7D3180090120D"
+            BuildableName = "DS_assign_3"
+            BlueprintName = "DS_assign_3"
+            ReferencedContainer = "container:DS_assign_3.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,15 +55,15 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "33E7877C1DB85040005BF460"
-            BuildableName = "BST"
-            BlueprintName = "BST"
-            ReferencedContainer = "container:BST.xcodeproj">
+            BlueprintIdentifier = "33E9A53E1DD7D3180090120D"
+            BuildableName = "DS_assign_3"
+            BlueprintName = "DS_assign_3"
+            ReferencedContainer = "container:DS_assign_3.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <CommandLineArguments>
          <CommandLineArgument
-            argument = "/Users/IM_working/Desktop/CompSci/Data-Structures/DS_assign_2/sample.txt"
+            argument = "/Users/IM_working/Desktop/CompSci/Data-Structures/DS_assign_3/command.txt"
             isEnabled = "YES">
          </CommandLineArgument>
       </CommandLineArguments>
@@ -80,10 +80,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "33E7877C1DB85040005BF460"
-            BuildableName = "BST"
-            BlueprintName = "BST"
-            ReferencedContainer = "container:BST.xcodeproj">
+            BlueprintIdentifier = "33E9A53E1DD7D3180090120D"
+            BuildableName = "DS_assign_3"
+            BlueprintName = "DS_assign_3"
+            ReferencedContainer = "container:DS_assign_3.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

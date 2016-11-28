@@ -1,0 +1,7 @@
+My design consisted of creating an abstract node class which would contain all the necessary functions needed to perform my operation; along side this I created a leaf node and internal node class which would inherent all member functions from BTNode which had all the virtual functions. There were many approaches I felt I could make but this was by far the most explanation and, in my eyes simplest to due. I had a lot of struggle with many of the primary functions, as I imagine everyone else did, but I feel that with the time constraint this was the best work I could do. I’m proud that I got the functionality to work without having to copy others code, but solely rely on the text and descriptions I found online and in class. The issue concerns with setting order equal to 3 in some classes and the amount of keys.
+
+***********
+TO RUN THE PROGRAM:
+please pass the command.txt file into the command line as an argument. AND please place the bdata.txt file in the same directory. Instructions were not clear on how to proceed with this file. 
+
+For best results I found that setting order equal to 7 was good - really very good. i.e. BTree<int> iTree(7)
